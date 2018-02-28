@@ -1,0 +1,1 @@
+# JavaScript boilerplate for kubosho

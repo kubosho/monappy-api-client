@@ -1,0 +1,46 @@
+{
+  "name": "monappy-api-client",
+  "version": "1.0.0",
+  "description": "Monappy API client for Node.js",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "saku test",
+    "build": "saku build",
+    "fmt": "saku fmt"
+  },
+  "keywords": [
+    "monappy",
+    "api",
+    "virtual currency",
+    "monacoin",
+    "mona"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/register": "^7.0.0-beta.40",
+    "ava": "^1.0.0-beta.1",
+    "eslint": "^4.18.1",
+    "prettier": "^1.10.2",
+    "rollup": "^0.56.3",
+    "saku": "^0.11.0",
+    "sinon": "^4.4.2"
+  },
+  "ava": {
+    "babel": {
+      "testOptions": {
+        "babelrc": false
+      }
+    },
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "compileEnhancements": false,
+    "require": [
+      "@babel/register"
+    ]
+  }
+}
