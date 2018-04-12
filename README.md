@@ -14,4 +14,4 @@ Semver is effective in framework or library. This boilerplate not framework or l
 
 ## License
 
-The codes are available under the [MIT license](https://github.com/kubosho/my-js-boilerplate/blob/master/LICENSE.md).
+The codes are available under the [CC0](https://github.com/kubosho/my-js-boilerplate/blob/master/LICENSE.md).
