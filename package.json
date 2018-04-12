@@ -1,25 +1,20 @@
 {
-  "name": "monappy-api-client",
-  "version": "1.0.0",
-  "description": "Monappy API client for Node.js",
-  "main": "lib/index.js",
+  "name": "my-js-boilerplate",
+  "version": "0.0.0",
+  "description": "JavaScript boilerplate for kubosho",
+  "private": true,
+  "main": "dest/index.js",
   "scripts": {
     "test": "saku test",
     "build": "saku build",
     "fmt": "saku fmt"
   },
   "keywords": [
-    "monappy",
-    "api",
-    "virtual currency",
-    "monacoin",
-    "mona"
+    "boilerplate"
   ],
   "author": "kubosho",
   "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/register": "^7.0.0-beta.40",
     "ava": "^1.0.0-beta.1",
