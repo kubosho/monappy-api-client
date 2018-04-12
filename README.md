@@ -4,9 +4,11 @@ JavaScript boilerplate for kubosho.
 
 ## Quick start
 
-1. Clone the git repo — `git clone git@github.com:kubosho/my-js-boilerplate.git`
-2. Run command — `npm install`
-3. Enjoy!
+1. Clone the git repo — `git clone git@github.com:kubosho/my-js-boilerplate.git ./path/to/foo`
+2. Move to cloned directory — `mv ./path/to/foo`
+3. Run command — `npm install`
+4. [optional] Force remove commit history and Git reinitialization — `rm -rf ./.git/ && git init`
+5. Enjoy!
 
 ## Why not use semver?
 
